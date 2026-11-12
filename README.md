@@ -12,6 +12,8 @@ Remote-MCP-Server für lokale Betriebe und Handwerk: Sind die üblichen Pflichta
 
 ## Status
 
+**Öffentliche Preview (kostenlos, Netlify Function, gleicher Code):** `https://impressum-check-mcp.netlify.app/mcp` – am 12.11.2026 per curl geprüft (health, initialize, tools/list, tools/call positiv und negativ, SSRF-Ziele wie localtest.me, 10.0.0.1.nip.io, [::1], 2130706433 abgelehnt). Manueller Deploy, nicht mit GitHub verknüpft.
+
 Version 0.1.0, gebaut und getestet am 12.11.2026. Lokal mit `wrangler dev` geprüft. **Noch kein Production-Deploy**; die URL in `server.json` (`https://impressum-mcp.ki-automatisieren.de/mcp`) ist nur ein Vorschlag und existiert noch nicht.
 
 ## Tools
