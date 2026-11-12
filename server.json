@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "de.ki-automatisieren/impressum-check",
+  "title": "Impressum-Check",
+  "description": "Prüft Impressum-Pflichtangaben nach § 5 DDG: Ampel je Feld, Quellen, keine Rechtsberatung.",
+  "version": "0.1.0",
+  "websiteUrl": "https://www.ki-automatisieren.de",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://impressum-mcp.ki-automatisieren.de/mcp"
+    }
+  ]
+}

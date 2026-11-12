@@ -1,0 +1,7 @@
+name = "impressum-check"
+main = "src/index.ts"
+compatibility_date = "2026-11-03"
+# Kein route/custom domain gesetzt: Production-Deploy erst nach Safaks OK.
+[dev]
+port = 8794
+ip = "127.0.0.1"

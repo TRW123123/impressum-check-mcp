@@ -1,0 +1,6 @@
+# Nur für die kostenlose Netlify-Preview. Production ist als Cloudflare Worker geplant (wrangler.toml).
+[build]
+  publish = "public"
+  command = ""
+[functions]
+  node_bundler = "esbuild"
